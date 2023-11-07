@@ -172,11 +172,7 @@ padding-left: 12px;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
-.about-text h2{
-    color: #081b29;
-}
 .about-text p{
-    color: green;
     font-size: 25px;
     line-height: 1.4;
     margin-bottom: 4rem;
@@ -261,29 +257,30 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
+
 .container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+ width: 600px;
+ height: 500px;
+ padding: 75px 90px;
+ margin-left: 120px;   
 }
 .heading1{
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 5px;
-    margin-bottom: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px; 
+  margin-bottom: 50px; 
 }
 .bar{
     font-size: 23px;
 }
 .Technical-bars .bar {
-margin-top: 40px 0;
+    margin-top: 40px 0;
 }
 .Technical-bars .bar:first-child{
     margin-top: 0;
 }
-.Technical-bars .bar:last-child{
+.Technical-bars .bar:last-child {
     margin-bottom: 0;
 }
 .Technical-bars .bar .info{
@@ -295,19 +292,19 @@ margin-top: 40px 0;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
-.Technical-bars .bar .progress-line {
+.Technical-bars .bar .progress-line{
     position: relative;
     border-radius: 10px;
     width: 100%;
     height: 5px;
     background-color: #000000;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
 @keyframes animate{
     100%{
-        transform: scaleX(1);
+      transform: scaleX(1);  
     }
 }
 .Technical-bars .bar .progress-line span{
@@ -315,31 +312,22 @@ margin-top: 40px 0;
     background-color: #0ef;
     position: absolute;
     border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1)forwards;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
 .progress-line.html span{
-    width: 90%;
+    width: 95%;
 }
-.progress-line.css span{
-    width: 65%;
+.progress-line.css span {
+    width: 87%;
 }
 .progress-line.bootstrap span {
-    width: 75%;
+    width: 100%;
 }
 .progress-line.javascript span {
-    width: 85%;
+    width: 75%;
 }
-
-
-
-
-
-
-
-
-
 
 
 
